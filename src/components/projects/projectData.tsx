@@ -41,6 +41,19 @@ export const projects: Project[] = [
     sourceUrl: "https://www.seattlesomaliweek.org",
   },
   {
+    title: "Movie Recommendation",
+    description: "A movie recommendation system that suggests movies based on user preferences.",
+    category: "Machine learning",
+    tag: [
+      
+      { name: "Python", icon: "/python.svg" },
+      { name: "Numpy", icon: "/numpy.svg" },
+      { name: "Scikit-learn", icon: "/scikit-learn.svg" },
+    ],
+    url: "https://www.tigertasticdaycare.com",
+    sourceUrl: "https://www.tigertasticdaycare.com",
+  },
+  {
     title: "Halal Zone",
     description: "An app that helps users find authentic halal food with ease based on their location.",
     category: "App development",

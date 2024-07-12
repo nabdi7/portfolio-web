@@ -19,7 +19,7 @@ const About = () => {
 
           <div className="md:w-2/4 space-y-4 py-4">
             <p>
-              Hey, I am a Software Engineer and a first-year Master&apos;s
+              Hey, I am a Software Engineer and a Master&apos;s
               student in Computer Science at{" "}
               <a
                 href="https://www.gatech.edu"
