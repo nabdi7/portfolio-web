@@ -13,7 +13,7 @@ const Work = () => {
         Here are some highlights from my professional journey.
         </p>
         <div className="flex flex-col md:flex-row mt-8">
-          <div className="flex md:flex-col flex-wrap md:space-y-4 space-x-2 md:space-x-0  gap-3 md:gap-3">
+          <div className="flex md:flex-col flex-wrap md:space-y-4 space-x-2 md:space-x-0  gap-3 md:gap-3 lg:ml-10">
             {workData.map((job) => (
               <button
                 key={job.id}

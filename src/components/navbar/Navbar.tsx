@@ -13,7 +13,7 @@ const Navbar = () => {
             <Link href='/' className='flex-center cursor-pointer transition-all hover:font-bold'>About</Link>
             <Link href='/projects' className='flex-center cursor-pointer transition-all hover:font-bold'>Projects</Link>
             <Link href='/research' className='flex-center cursor-pointer transition-all hover:font-bold'>Research</Link>
-            <Link href='/blogs' className='flex-center cursor-pointer transition-all hover:font-bold'>Blogs</Link>
+            <Link href='/blog' className='flex-center cursor-pointer transition-all hover:font-bold'>Blogs</Link>
           </div>
         </div>
       </div>
