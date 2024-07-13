@@ -33,7 +33,7 @@ const Projects: React.FC = () => {
               className={`px-3 py-1 rounded-lg ${
                 selectedCategory === category
                   ? "bg-gray-500 text-white"
-                  : "bg-gray-100 text-gray-700"
+                  : "bg-gray-100 text-gray-700" 
               }`}
               onClick={() => setSelectedCategory(category)}
             >
