@@ -7,7 +7,7 @@ export const projects: Project[] = [
     description: "A website for QD Web Designs, a web development agency based in Seattle, WA.",
     category: "Web development",
     tag: [
-      { name: "Nextjs", icon: "/nextjs.svg" },
+      { name: "Next.js", icon: "/nextjs.svg" },
       { name: "React", icon: "/react.svg" },
       { name: "Typescript", icon: "/typescript.svg" },
       { name: "Tailwindcss", icon: "/tailwindcss.svg" },
@@ -32,7 +32,7 @@ export const projects: Project[] = [
     description: "A non-profit organization representing the Somali community in Seattle, WA.",
     category: "Web development",
     tag: [
-      { name: "Nextjs", icon: "/nextjs.svg" },
+      { name: "Next.js", icon: "/nextjs.svg" },
       { name: "React", icon: "/react.svg" },
       { name: "Typescript", icon: "/typescript.svg" },
       { name: "Tailwindcss", icon: "/tailwindcss.svg" },
@@ -58,7 +58,7 @@ export const projects: Project[] = [
     description: "An app that helps users find authentic halal food with ease based on their location.",
     category: "App development",
     tag: [
-      { name: "React Native", icon: "/react.svg" },
+      { name: "React Native", icon: "/reactjs.svg" },
       { name: "MongoDB", icon: "/mongodb.svg" },
       { name: "Firebase", icon: "/firebase.svg" },
     ],
@@ -66,11 +66,25 @@ export const projects: Project[] = [
     sourceUrl: "https://www.halalrestaurant.com",
   },
   {
+    title: "Current Personal Website",
+    description: "A website for Bright Smiles Childcare, emphasizing safety and care for young children.",
+    category: "Web development",
+    tag: [
+      { name: "Next.js", icon: "/nextjs.svg" },
+      { name: "React", icon: "/react.svg" },
+      { name: "Typescript", icon: "/typescript.svg" },
+      { name: "Tailwindcss", icon: "/tailwindcss.svg" },
+      { name: "Mdx", icon: "/mdx.svg" },
+    ],
+    url: "https://www.najibabdi.me",
+    sourceUrl: "https://www.brightsmileshomechildcare.com",
+  },
+  {
     title: "Bright Smiles Childcare",
     description: "A website for Bright Smiles Childcare, emphasizing safety and care for young children.",
     category: "Web development",
     tag: [
-      { name: "Nextjs", icon: "/nextjs.svg" },
+      { name: "Next.js", icon: "/nextjs.svg" },
       { name: "Typescript", icon: "/typescript.svg" },
       { name: "Tailwindcss", icon: "/tailwindcss.svg" },
     ],
@@ -82,7 +96,7 @@ export const projects: Project[] = [
     description: "An app facilitating emotional well-being management.",
     category: "App development",
     tag: [
-      { name: "React Native", icon: "/react.svg" },
+      { name: "React Native", icon: "/reactjs.svg" },
       { name: "MongoDB", icon: "/mongodb.svg" },
       { name: "Firebase", icon: "/firebase.svg" },
     ],
@@ -94,7 +108,7 @@ export const projects: Project[] = [
     description: "A website for a mosque, serving the Muslim community in Kent, WA.",
     category: "Web development",
     tag: [
-      { name: "Reactjs", icon: "/react.svg" },
+      { name: "React", icon: "/react.svg" },
       { name: "Tailwindcss", icon: "/tailwindcss.svg" },
     ],
     url: "https://www.alhudaislamiccenter.com",
@@ -105,7 +119,7 @@ export const projects: Project[] = [
     description: "A website for Hadiya Childcare, supporting holistic child development.",
     category: "Web development",
     tag: [
-      { name: "Reactjs", icon: "/react.svg" },
+      { name: "React", icon: "/react.svg" },
       { name: "Tailwindcss", icon: "/tailwindcss.svg" },
     ],
     url: "https://www.hadiyachildcare.com",
@@ -116,7 +130,7 @@ export const projects: Project[] = [
     description: "A website for a daycare business located in Seattle, WA.",
     category: "Web development",
     tag: [
-      { name: "Nextjs", icon: "/nextjs.svg" },
+      { name: "Next.js", icon: "/nextjs.svg" },
       { name: "React", icon: "/react.svg" },
       { name: "Typescript", icon: "/typescript.svg" },
       { name: "Tailwindcss", icon: "/tailwindcss.svg" },
