@@ -67,7 +67,7 @@ export const projects: Project[] = [
   },
   {
     title: "Current Personal Website",
-    description: "A website for Bright Smiles Childcare, emphasizing safety and care for young children.",
+    description: "My current personal website for showcasing my projects and skills.",
     category: "Web development",
     tag: [
       { name: "Next.js", icon: "/nextjs.svg" },

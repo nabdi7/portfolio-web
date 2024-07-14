@@ -18,7 +18,7 @@ export default function PostPage({ post }: { post: Post }) {
   const router = useRouter();
 
   return (
-    <article className="container py-6 prose max-w-3xl mx-auto">
+    <article className="py-2 prose max-w-3xl mx-auto custom-screen:prose-sm custom-screen:prose-md md:px-0 px-4">
       <button
         onClick={() => router.back()}
         className="flex items-center text-sm text-gray-500 hover:text-gray-700 mb-4"

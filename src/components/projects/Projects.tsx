@@ -14,13 +14,13 @@ const Projects: React.FC = () => {
   return (
     <section className="custom-screen">
       <div className="max-w-3xl mx-auto">
-        <div className="flex flex-col md:flex-col max-w-3xl mx-auto ">
+        <div className="flex flex-col md:flex-col mx-auto ">
           <h2 className="text-3xl font-bold text-center">Projects</h2>
           <p className="text-center text-md text-gray-400 mt-2">
             Here are some of the projects I have worked on
           </p>
         </div>
-        {/* options for projects */}
+        {/* select options for projects */}
         <div className="mt-4 flex flex-wrap justify-center gap-2 md:gap-4">
           {[
             "All",
@@ -81,8 +81,8 @@ const Projects: React.FC = () => {
                   {project.tag.map((tag, idx) => (
                     <div key={idx} className="flex items-center space-x-1 mt-2">
                       <span className="bg-gray-100 text-gray-700 px-3 py-1 rounded-lg flex items-center">
-                        <Image src={tag.icon} alt={""} width="20" height="20" />
-                        <span className="ml-2">{tag.name}</span>
+                        <Image src={tag.icon} alt={""} width="14" height="14" />
+                        <span className="ml-2 text-sm">{tag.name}</span>
                       </span>
                     </div>
                   ))}

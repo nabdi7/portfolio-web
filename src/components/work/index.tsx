@@ -4,7 +4,7 @@ const workData: Work[] = [
     {
         id: 1,
         title: "Software Engineer",
-        date: "Dec 2022 - Jun 2024",
+        date: "Dec 2022 - ",
         location: "Seattle, WA",
         description: [
             "Founder of Quality Designs small company specializing in building websites for all types of businesses focused on lead generation and building brand.",
