@@ -6,8 +6,8 @@ const Work = () => {
   const [selectedCompany, setSelectedCompany] = useState(workData[0]);
 
   return (
-    <div className="p-8">
-      <div className="flex flex-col md:flex-col max-w-4xl mx-auto ">
+    <div className="custom-screen p-8">
+      <div className="flex flex-col md:flex-col max-w-3xl mx-auto ">
         <h2 className="text-3xl font-bold">Work Experience</h2>
         <p className="text-gray-400 mt-2">
         Here are some highlights from my professional journey.

@@ -16,7 +16,11 @@
   }
 }
 
-
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+  }
+}
 
 @layer utilities {
   .text-balance {

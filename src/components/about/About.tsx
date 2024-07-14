@@ -5,8 +5,8 @@ import Work from "../work/Work";
 const About = () => {
   return (
     <>
-      <div className="p-8">
-        <div className="flex flex-col md:flex-row max-w-4xl mx-auto space-y-8 md:space-y-0 md:space-x-12">
+      <div className="custom-screen p-8">
+        <div className="flex flex-col md:flex-row max-w-3xl mx-auto space-y-8 md:space-y-0 md:space-x-10">
           <div className="md:w-1/3">
             <Image
               src="/najka.jpg"
@@ -17,9 +17,9 @@ const About = () => {
             />
           </div>
 
-          <div className="md:w-2/4 space-y-4 py-4">
+          <div className="md:w-2/4 space-y-4">
             <p>
-              Hey, I am a Software Engineer and a Master&apos;s
+              Hey, I&apos;m <span className="text-blue-500">Najib Abdi</span>. I am a Software Engineer and a Master&apos;s
               student in Computer Science at{" "}
               <a
                 href="https://www.gatech.edu"

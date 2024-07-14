@@ -12,12 +12,14 @@ const Projects: React.FC = () => {
       : projects.filter((project) => project.category === selectedCategory);
 
   return (
-    <section className="">
-      <div className="max-w-4xl mx-auto">
-        <h1 className="text-3xl font-bold text-center">Projects</h1>
-        <p className="text-center text-md text-gray-400 mt-2">
-          Here are some of the projects I have worked on
-        </p>
+    <section className="custom-screen">
+      <div className="max-w-3xl mx-auto">
+        <div className="flex flex-col md:flex-col max-w-3xl mx-auto ">
+          <h2 className="text-3xl font-bold text-center">Projects</h2>
+          <p className="text-center text-md text-gray-400 mt-2">
+            Here are some of the projects I have worked on
+          </p>
+        </div>
         {/* options for projects */}
         <div className="mt-4 flex flex-wrap justify-center gap-2 md:gap-4">
           {[
@@ -25,8 +27,8 @@ const Projects: React.FC = () => {
             "Web development",
             "App development",
             "Machine learning",
-            "Ui design",
-            "Animations",
+            // "Ui design",
+            // "Animations",
           ].map((category) => (
             <button
               key={category}
@@ -43,7 +45,7 @@ const Projects: React.FC = () => {
         </div>
 
         {/* projects */}
-        <div className="max-w-3xl mx-auto pt-5">
+        <div className="pt-5">
           {filteredProjects.map((project, index) => (
             <div key={index} className="mb-2 mt-2">
               <div className="bg-white rounded-lg overflow-hidden">
@@ -53,7 +55,7 @@ const Projects: React.FC = () => {
                   rel="noopener noreferrer"
                 ></a>
               </div>
-              <div className="mt-4 lg:py-10 py-5 rounded-lg">
+              <div className="mt-4 lg:py-10 py-5 rounded-lg border-border border-b">
                 <h4 className="text-lg font-semibold">{project.title}</h4>
                 <p className="mt-2 text-gray-600">{project.description}</p>
                 <div className="mt-2 flex items-center space-x-2">
@@ -86,7 +88,6 @@ const Projects: React.FC = () => {
                   ))}
                 </div>
               </div>
-              <div className="border border-gray-200 mt-4"></div>
             </div>
           ))}
         </div>
