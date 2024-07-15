@@ -9,6 +9,7 @@ const useMDXComponent = (code: string) => {
 
 const components = {
   Image,
+  video: (props: any) => <video {...props} playsInline />,
 //   Callout,
 };
 
