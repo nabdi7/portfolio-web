@@ -12,7 +12,7 @@ const workData: Work[] = [
             "Designed a UX that improved web functionality and responsiveness for a local small business."
         ],
         company: "QD Web Designs",
-        companyLogo: "qd.png", 
+        companyLogo: "/qd.png", 
     },
     {
         id: 2,
@@ -25,7 +25,7 @@ const workData: Work[] = [
             "Improved accuracy of identifying entities in the image significantly by 30%."
         ],
         company: "Tesla, Inc ",
-        companyLogo: "tesla2.png", 
+        companyLogo: "/tesla2.png", 
     },
     {
         id: 3,
@@ -38,7 +38,7 @@ const workData: Work[] = [
             "Created python script to organize and list all the interns/workers in the company based on what department they work in sub-team and date they joined the company."
         ],
         company: "GaoTek, Inc",
-        companyLogo: "gaotek.png", 
+        companyLogo: "/gaotek.png", 
     },
 ];
 

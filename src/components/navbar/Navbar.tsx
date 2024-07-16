@@ -13,25 +13,25 @@ export function Navbar() {
       </Link>
       <Link
         href="/"
-        className={`font-medium hidden sm:inline-block ${pathname === "/about" ? "text-blue-800" : "text-gray-700"}`}
+        className={`font-medium hidden sm:inline-block ${pathname === "/about" ? "text-blue-500" : "text-gray-700"}`}
       >
         About
       </Link>
       <Link
         href="/projects"
-        className={`font-medium hidden sm:inline-block ${pathname === "/projects" ? "text-blue-800" : "text-gray-700"}`}
+        className={`font-medium hidden sm:inline-block ${pathname === "/projects" ? "text-blue-500" : "text-gray-700"}`}
       >
         Projects
       </Link>
       <Link
         href="/research"
-        className={`font-medium hidden sm:inline-block ${pathname === "/research" ? "text-blue-800" : "text-gray-700"}`}
+        className={`font-medium hidden sm:inline-block ${pathname === "/research" ? "text-blue-500" : "text-gray-700"}`}
       >
         Research
       </Link>
       <Link
         href="/blog"
-        className={`font-medium hidden sm:inline-block ${pathname === "/blog" ? "text-blue-800" : "text-gray-700"}`}
+        className={`font-medium hidden sm:inline-block ${pathname === "/blog" ? "text-blue-500" : "text-gray-700"}`}
       >
         Blogs
       </Link>

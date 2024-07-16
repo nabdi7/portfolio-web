@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Work from "../work/Work";
+import Link from "next/link";
 
 const About = () => {
   return (
@@ -17,10 +18,11 @@ const About = () => {
             />
           </div>
 
-          <div className="md:w-2/4 space-y-4">
+          <div className="md:w-3/4 space-y-4">
             <p>
-              Hey, I&apos;m <span className="text-blue-500">Najib Abdi</span>. I am a Software Engineer and a Master&apos;s
-              student in Computer Science at{" "}
+              Hey, I&apos;m <span className="text-blue-500">Najib Abdi</span>. I
+              am a Software Engineer and a Master&apos;s student in Computer
+              Science at{" "}
               <a
                 href="https://www.gatech.edu"
                 target="_blank"
@@ -57,6 +59,15 @@ const About = () => {
               I have a passion for learning new libraries, languages, and
               frameworks, embracing challenges in software engineering. I enjoy
               solving complex problems, both independently and collaboratively.
+            </p>
+            <p>
+              In my free time, I enjoy writing and exploring the fascinating
+              topics of physics, astronomy, and other scientific phenomena.
+              Check out my {" "}
+              <Link href="/blog" className="text-blue-500">
+                blogs
+              </Link> {" "}
+              to see what I&apos;ve been writing about.
             </p>
           </div>
         </div>

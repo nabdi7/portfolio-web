@@ -50,8 +50,8 @@ export const projects: Project[] = [
       { name: "Numpy", icon: "/numpy.svg" },
       { name: "Scikit-learn", icon: "/scikit-learn.svg" },
     ],
-    url: "https://www.tigertasticdaycare.com",
-    sourceUrl: "https://www.tigertasticdaycare.com",
+    url: "/",
+    sourceUrl: "/",
   },
   {
     title: "Halal Zone",
@@ -77,7 +77,7 @@ export const projects: Project[] = [
       { name: "Mdx", icon: "/mdx.svg" },
     ],
     url: "https://www.najibabdi.me",
-    sourceUrl: "https://www.brightsmileshomechildcare.com",
+    sourceUrl: "https://github.com/nabdi7/portfolio-web",
   },
   {
     title: "Bright Smiles Childcare",
@@ -101,7 +101,7 @@ export const projects: Project[] = [
       { name: "Firebase", icon: "/firebase.svg" },
     ],
     url: "https://www.emotionstm.com",
-    sourceUrl: "https://www.emotionstm.com",
+    sourceUrl: "https://github.com/nabdi7/emotions-web",
   },
   {
     title: "AlHuda Islamic Center",

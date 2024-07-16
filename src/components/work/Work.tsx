@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import workData from "./index";
-
+import Image from "next/image";
 const Work = () => {
   const [selectedCompany, setSelectedCompany] = useState(workData[0]);
 
@@ -22,9 +22,11 @@ const Work = () => {
                 }`}
                 onClick={() => setSelectedCompany(job)}
               >
-                <img
+                <Image
                   src={job.companyLogo}
                   alt={job.company}
+                  height={500}
+                  width={500}
                   className="w-6 h-6 md:w-10 md:h-10 mr-2 md:mr-4"
                 />
                 <span className="text-sm md:text-md font-semibold">
