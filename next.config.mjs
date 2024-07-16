@@ -3,7 +3,7 @@ import { build } from "velite";
 /** @type {import('next').NextConfig} */
 export default {
   reactStrictMode: true,
-  // output: 'export',
+  output: 'export',
   images: {unoptimized: true},
 
   // images: {
