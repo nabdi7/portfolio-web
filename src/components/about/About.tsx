@@ -10,7 +10,7 @@ const About = () => {
         <div className="flex flex-col md:flex-row max-w-3xl mx-auto space-y-8 md:space-y-0 md:space-x-10">
           <div className="md:w-1/3 aspect-w-12 aspect-h-7 sm:aspect-none rounded-xl overflow-hidden ">
             <Image
-              src="/najka.jpg"
+              src="https://res.cloudinary.com/dlehxkdtn/image/upload/najka_ed6xzp.jpg"
               alt="Profile Photo"
               width={500}
               height={200}

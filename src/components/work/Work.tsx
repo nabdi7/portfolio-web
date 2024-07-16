@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import workData from "./index";
 import Image from "next/image";
+
 const Work = () => {
   const [selectedCompany, setSelectedCompany] = useState(workData[0]);
 

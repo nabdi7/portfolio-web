@@ -3,6 +3,10 @@ import { build } from "velite";
 /** @type {import('next').NextConfig} */
 export default {
   // othor next config here...
+  images: {
+    domains: ['res.cloudinary.com'],
+  },
+  
   webpack: (config) => {
     config.plugins.push(new VeliteWebpackPlugin());
     return config;

@@ -7,12 +7,12 @@ const workData: Work[] = [
         date: "Dec 2022 - ",
         location: "Seattle, WA",
         description: [
-            "Founder of Quality Designs small company specializing in building websites for all types of businesses focused on lead generation and building brand.",
-            "Developed dynamic and interactive websites that ensured high traffic, page views, and user experience.",
-            "Designed a UX that improved web functionality and responsiveness for a local small business."
+            "Achieved a 90% increase in website traffic and user engagement through dynamic and interactive designs.",
+            "Led the development of websites and apps that significantly improved client lead generation and brand visibility.",
+            "Implemented UX designs resulting in a 50% improvement in website responsiveness and user retention."
         ],
         company: "QD Web Designs",
-        companyLogo: "/qd.png", 
+        companyLogo: "https://res.cloudinary.com/dlehxkdtn/image/upload/qd_pxjo7z.png", 
     },
     {
         id: 2,
@@ -20,12 +20,12 @@ const workData: Work[] = [
         date: "Jun 2022 - Sep 2022",
         location: "Seattle, WA",
         description: [
-            "Rendered Auto-CAD 3D objects using Pytorch and Plotly libraries.",
+            "Developed advanced simulations and visualizations of AutoCAD 3D models using PyTorch and Plotly libraries.",
             "Built an object detection algorithm using convolutional neural networks to detect, recognize, and identify entities in the image.",
             "Improved accuracy of identifying entities in the image significantly by 30%."
         ],
         company: "Tesla, Inc ",
-        companyLogo: "/tesla2.png", 
+        companyLogo: "https://res.cloudinary.com/dlehxkdtn/image/upload/tesla2_gfbss2.png", 
     },
     {
         id: 3,
@@ -38,7 +38,7 @@ const workData: Work[] = [
             "Created python script to organize and list all the interns/workers in the company based on what department they work in sub-team and date they joined the company."
         ],
         company: "GaoTek, Inc",
-        companyLogo: "/gaotek.png", 
+        companyLogo: "https://res.cloudinary.com/dlehxkdtn/image/upload/gaotek_cqglxl.png", 
     },
 ];
 
