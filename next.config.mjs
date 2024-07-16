@@ -5,10 +5,10 @@ export default {
   reactStrictMode: true,
   output: 'export',
   images: {unoptimized: true},
-  
-  images: {
-    domains: ['res.cloudinary.com'],
-  },
+
+  // images: {
+  //   domains: ['res.cloudinary.com'],
+  // },
   
   webpack: (config) => {
     config.plugins.push(new VeliteWebpackPlugin());
