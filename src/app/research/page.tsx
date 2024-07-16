@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: "Research on machine learning, algorithms, software development and more.",
 };
 
-const page = () => {
+const research = () => {
   return (
     <div>
       <Research />
@@ -15,4 +15,4 @@ const page = () => {
   )
 }
 
-export default page
+export default research

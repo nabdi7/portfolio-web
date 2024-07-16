@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: "Projects Najib Abdi has worked on",
 };
 
-const page = () => {
+const projects = () => {
   return (
     <div>
       <Projects />
@@ -15,4 +15,4 @@ const page = () => {
   )
 }
 
-export default page
+export default projects
