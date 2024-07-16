@@ -2,7 +2,10 @@ import { build } from "velite";
 
 /** @type {import('next').NextConfig} */
 export default {
-  // othor next config here...
+  reactStrictMode: true,
+  output: 'export',
+  images: {unoptimized: true},
+  
   images: {
     domains: ['res.cloudinary.com'],
   },

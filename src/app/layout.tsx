@@ -9,6 +9,13 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Najib Abdi - Software Engineer",
   description: "Najib Abdi is a full stack and mobile app developer ",
+  openGraph: {
+    title: "Najib Abdi - Software Engineer",
+    description: "Najib Abdi is a full stack and mobile app developer ",
+    type: "website",
+    siteName: "Najib Abdi",
+    url: "https://najibabdi.me",
+  },
 };
 
 export default function RootLayout({
