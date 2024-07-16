@@ -15,7 +15,7 @@ const Projects: React.FC = () => {
     <section className="custom-screen">
       <div className="max-w-3xl mx-auto">
         <div className="flex flex-col md:flex-col mx-auto ">
-          <h2 className="text-3xl font-bold">Projects</h2>
+          <h1 className="text-3xl font-bold">Projects</h1>
           <p className="text-md text-gray-400 mt-2">
             Here are some of the projects I have worked on
           </p>

@@ -9,7 +9,7 @@ const Blogs = () => {
   return (
     <section className="custom-screen">
       <div className="flex flex-col md:flex-col max-w-3xl mx-auto ">
-        <h2 className="text-3xl font-bold">All Blogs</h2>
+        <h1 className="text-3xl font-bold">All Blogs</h1>
       </div>
       <div className="max-w-3xl mx-auto">
       {displayPosts?.length > 0 ? (

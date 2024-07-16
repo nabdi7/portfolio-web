@@ -9,7 +9,7 @@ const Work = () => {
   return (
     <div className="custom-screen p-8">
       <div className="flex flex-col md:flex-col max-w-3xl mx-auto ">
-        <h2 className="text-2xl font-bold">Work Experience</h2>
+        <h1 className="text-2xl font-bold">Work Experience</h1>
         <p className="text-gray-400 mt-2">My professional work journey.</p>
         <div className="flex flex-col md:flex-row mt-8">
           <div className="flex md:flex-col flex-wrap md:space-y-4 space-x-2 md:space-x-0  gap-3 md:gap-3 lg:ml-10">
