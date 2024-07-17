@@ -10,27 +10,6 @@ export default {
   //   domains: ['res.cloudinary.com'],
   // },
   
-  async rewrites() {
-    return [
-      {
-        source: '/projects',
-        destination: '/projects',
-      },
-      {
-        source: '/about',
-        destination: '/about',
-      },
-      {
-        source: '/research',
-        destination: '/research',
-      },
-      {
-        source: '/blog',
-        destination: '/blog',
-      },
-    ];
-  },
-  
   webpack: (config) => {
     config.plugins.push(new VeliteWebpackPlugin());
     return config;

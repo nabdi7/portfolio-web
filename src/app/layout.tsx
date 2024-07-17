@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     description: "Najib Abdi is a full stack and mobile app developer ",
     type: "website",
     siteName: "Najib Abdi",
-    url: "https://najibabdi.me",
+    url: "https://www.najibabdi.me/",
   },
 };
 

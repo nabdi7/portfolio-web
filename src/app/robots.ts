@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
             allow: ['/'],
             // disallow: '/',
         },
-        sitemap: "https://najibabdi.me/sitemap",
+        sitemap: "https://www.najibabdi.me/sitemap",
     }
 }
