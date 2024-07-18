@@ -11,7 +11,7 @@ export function Header() {
         <Navbar />
         <div className="flex flex-1 items-center justify-end space-x-2">
           <nav className="flex items-center">
-            <div className="lg:hidden">
+            <div className="lg:hidden sm:hidden">
               <Menu />
             </div>
           </nav>
