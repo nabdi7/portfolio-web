@@ -3,11 +3,6 @@ export const siteConfig = {
     url: "https://www.najibabdi.me/",
     description: "Najib Abdi is a full stack and mobile app developer ",
     author: "Najib Abdi",
-    // links: {
-    //   twitter: "",
-    //   github: "", 
-    //   personalSite: "",
-    // },
   };
   
   export type SiteConfig = typeof siteConfig;

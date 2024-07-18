@@ -2,6 +2,7 @@ import { siteConfig } from "@/config/site";
 import Link from "next/link";
 import { Navbar } from "./Navbar";
 import { Menu } from "../menu/Menu";
+// import { ThemeToggle } from "../theme/Theme-Toggle";
 
 export function Header() {
   return (
@@ -15,6 +16,7 @@ export function Header() {
             </div>
           </nav>
         </div>
+        {/* <ThemeToggle /> */}
       </div>
     </header>
   );
