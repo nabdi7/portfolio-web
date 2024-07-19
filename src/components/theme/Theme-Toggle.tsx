@@ -1,20 +1,28 @@
-// "use client"
 
-// import * as React from "react"
-// import { Moon, Sun } from "lucide-react"
-// import { useTheme } from "next-themes"
+// "use client";
 
+// import { Moon, Sun } from "lucide-react";
+// import { useTheme } from "next-themes";
 
 // export function ThemeToggle() {
-//   const { setTheme, theme } = useTheme()
+//   const { setTheme } = useTheme();
 
 //   return (
-//     <button
-//       onClick={() => setTheme(theme === "light" ? "dark" : "light")}
-//     >
-//       <Sun className="h-[1.5rem] w-[1.3rem] dark:hidden" />
-//       <Moon className="hidden h-5 w-5 dark:block" />
-//       <span className="sr-only">Toggle theme</span>
-//     </button>
-//   )
+//     <div className="">
+//       <button className="w-10 px-0">
+//         <Sun className="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
+//         <Moon className="absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
+//         <span className="sr-only">Toggle Theme</span>
+//       </button>
+
+//       <div className="">
+//         <button onClick={() => setTheme("light")}>
+//           Light
+//         </button>
+//         <button onClick={() => setTheme("dark")}>
+//           Dark
+//         </button>
+//       </div>
+//     </div>
+//   );
 // }

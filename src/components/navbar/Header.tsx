@@ -1,5 +1,3 @@
-import { siteConfig } from "@/config/site";
-import Link from "next/link";
 import { Navbar } from "./Navbar";
 import { Menu } from "../menu/Menu";
 // import { ThemeToggle } from "../theme/Theme-Toggle";

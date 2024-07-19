@@ -1,16 +1,18 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import Script from 'next/script';
+import Script from "next/script";
 import "./globals.css";
 import { Header } from "@/components/navbar/Header";
 import Footer from "@/components/footer/Footer";
 import { siteConfig } from "@/config/site";
+// import { Providers } from "../components/theme/Theme-Provider";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Najib Abdi - Software Engineer",
-  description: "Najib Abdi | I am a Software Engineer with a passion for full-stack development and a master's student specializing in machine learning.",
+  description:
+    "Najib Abdi | I am a Software Engineer with a passion for full-stack development and a master's student specializing in machine learning.",
   metadataBase: new URL(process.env.NEXT_PUBLIC_URL ?? siteConfig.url),
   openGraph: {
     title: "Najib Abdi - Software Engineer",
@@ -48,14 +50,16 @@ export default function RootLayout({
             src="https://www.googletagmanager.com/ns.html?id=GTM-KSGSTWJ6"
             height="0"
             width="0"
-            style={{ display: 'none', visibility: 'hidden' }}
+            style={{ display: "none", visibility: "hidden" }}
           />
         </noscript>
-        <div className="relative flex min-h-dvh flex-col bg-background">
-          <Header />
-          <main className="flex-1">{children}</main>
-          <Footer />
-        </div>
+        {/* <Providers> */}
+          <div className="relative flex min-h-dvh flex-col bg-background">
+            <Header />
+            <main className="flex-1">{children}</main>
+            <Footer />
+          </div>
+        {/* </Providers> */}
       </body>
     </html>
   );
