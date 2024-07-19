@@ -1,4 +1,5 @@
 import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Script from "next/script";
@@ -57,7 +58,7 @@ export default function RootLayout({
         {/* <Providers> */}
           <div className="relative flex min-h-dvh flex-col bg-background">
             <Header />
-            <main className="flex-1">{children} <Analytics /></main>
+            <main className="flex-1">{children} <Analytics /> <SpeedInsights /></main>
             <Footer />
           </div>
         {/* </Providers> */}
