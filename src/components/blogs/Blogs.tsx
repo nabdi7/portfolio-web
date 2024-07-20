@@ -2,11 +2,13 @@ import React from 'react'
 import { posts } from "#site/content";
 import { PostItem } from './post-item';
 import { sortPosts } from '@/lib/utils';
+import Subscribe from '../subscribe/Subscribe';
 
 const Blogs = () => {
   const sortedPosts = sortPosts(posts.filter((post) => post.published));
   const displayPosts = sortedPosts;
   return (
+    <>
     <section className="custom-screen">
       <div className="flex flex-col md:flex-col max-w-3xl mx-auto ">
         <h1 className="text-3xl font-bold">All Blogs</h1>
@@ -35,6 +37,8 @@ const Blogs = () => {
           )}
       </div>
     </section>
+    {/* <Subscribe /> */}
+    </>
   )
 }
 
