@@ -41,7 +41,7 @@ const About = () => {
             <p>
               I attained a BS at the{" "}
               <a
-                href="https://www.washington.edu"
+                href="https://www.uwb.edu/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-500"
