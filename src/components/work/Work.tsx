@@ -62,7 +62,7 @@ const Work = () => {
 
       <div className="flex flex-col md:flex-col max-w-3xl mx-auto ">
         <h1 className="text-2xl font-bold">Education</h1>
-        <div className="grid flex-col md:flex-row lg:max-w-xl mt-8 mb-10 gap-3">
+        <div className="grid flex-col md:flex-row mt-8 mb-10 gap-3">
           <div className="p-4 border border-gray-200 rounded-lg">
             <svg
               className="shrink-0 size-14 mb-3"
