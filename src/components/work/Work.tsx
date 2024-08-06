@@ -4,58 +4,127 @@ import workData from "./index";
 import Image from "next/image";
 
 const Work = () => {
-  const [selectedCompany, setSelectedCompany] = useState(workData[0]);
-
   return (
     <div className="custom-screen p-8">
       <div className="flex flex-col md:flex-col max-w-3xl mx-auto ">
         <h1 className="text-2xl font-bold">Work Experience</h1>
         <p className="text-gray-400 mt-2">My professional work journey.</p>
-        <div className="flex flex-col md:flex-row mt-8 mb-10">
-          <div className="flex md:flex-col flex-wrap md:space-y-4 space-x-2 md:space-x-0  gap-3 md:gap-3 lg:ml-10">
-            {workData.map((job) => (
-              <button
-                key={job.id}
-                className={`flex items-center p-2 rounded-lg  min-w-[150px] md:min-w-[190px] ${
-                  selectedCompany.id === job.id
-                    ? "bg-gray-500 text-white"
-                    : "bg-white text-gray-700"
-                }`}
-                onClick={() => setSelectedCompany(job)}
-              >
-                <Image
-                  src={job.companyLogo}
-                  alt={job.company}
-                  height={500}
-                  width={500}
-                  className="w-6 h-6 md:w-10 md:h-10 mr-2 md:mr-4"
+        <div className="  mt-8 mb-10">
+          <div className="group relative flex gap-x-5">
+            <div className="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-gray-200">
+              <div className="relative z-10 size-8 flex justify-center items-center">
+                <img
+                  className="w-32 sm:w-48 h-full absolute inset-0 object-cover rounded-s-lg"
+                  src="https://res.cloudinary.com/dlehxkdtn/image/upload/qd_pxjo7z.png"
+                  alt="Blog Image"
                 />
-                <span className="text-sm md:text-md font-semibold">
-                  {job.company}
+              </div>
+            </div>
+            <div className="grow pb-8 group-last:pb-0">
+              <h3 className="mb-1 text-xs text-gray-600">Dec 2022 -</h3>
+
+              <p className="font-semibold text-sm text-gray-800">
+                Software Engineer{" "}
+                <span className="text-blue-500 text-md md:text-md">
+                  @ QD Web Designs
                 </span>
-              </button>
-            ))}
-          </div>
-          <div className="mt-4 md:mt-0 md:ml-8">
-            <h4 className="text-lg md:text-xl font-medium">
-              {selectedCompany.title}{" "}
-              <span className="text-blue-500 text-md md:text-md">
-                @ {selectedCompany.company}
-              </span>
-            </h4>
-            <p className="text-gray-400 text-sm md:text-md">
-              {selectedCompany.date}
-            </p>
-            <p className="text-gray-400 text-sm md:text-md">
-              {selectedCompany.location}
-            </p>
-            <ul className="list-disc list-inside mt-2">
-              {selectedCompany.description.map((desc, i) => (
-                <li key={i} className="mt-1 ">
-                  {desc}
+              </p>
+
+              <ul className="list-disc ms-6 mt-3 space-y-1.5">
+                <li className="ps-1 text-sm text-gray-600">
+                  Achieved a 90% increase in website traffic and user engagement
+                  through dynamic and interactive designs.
                 </li>
-              ))}
-            </ul>
+                <li className="ps-1 text-sm text-gray-600">
+                  Led the development of websites and apps that significantly
+                  improved client lead generation and brand visibility.
+                </li>
+                <li className="ps-1 text-sm text-gray-600">
+                  Implemented UX designs resulting in a 50% improvement in
+                  website responsiveness and user retention.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="group relative flex gap-x-5">
+            <div className="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-gray-200">
+              <div className="relative z-10 size-8 flex justify-center items-center">
+                <img
+                  className="w-32 sm:w-48 h-full absolute inset-0 object-cover rounded-s-lg"
+                  src="https://res.cloudinary.com/dlehxkdtn/image/upload/tesla2_gfbss2.png"
+                  alt="Blog Image"
+                />
+              </div>
+            </div>
+
+            <div className="grow pb-8 group-last:pb-0">
+              <h3 className="mb-1 text-xs text-gray-600">
+                Jun 2022 - Sep 2022
+              </h3>
+
+              <p className="font-semibold text-sm text-gray-800">
+                Software Engineering Intern {" "}
+                <span className="text-blue-500 text-md md:text-md">
+                  @ Tesla, Inc
+                </span>
+              </p>
+
+              <ul className="list-disc ms-6 mt-3 space-y-1.5">
+                <li className="ps-1 text-sm text-gray-600">
+                  Developed advanced simulations and visualizations of AutoCAD
+                  3D models using PyTorch and Plotly libraries.
+                </li>
+                <li className="ps-1 text-sm text-gray-600">
+                  Built an object detection algorithm using convolutional neural
+                  networks to detect, recognize, and identify entities in the
+                  image.
+                </li>
+                <li className="ps-1 text-sm text-gray-600">
+                  Improved accuracy of identifying entities in the image
+                  significantly by 30%.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="group relative flex gap-x-5">
+            <div className="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-gray-200">
+              <div className="relative z-10 size-8 flex justify-center items-center">
+                <img
+                  className="w-32 sm:w-48 h-full absolute inset-0 object-cover rounded-s-lg"
+                  src="https://res.cloudinary.com/dlehxkdtn/image/upload/gaotek_cqglxl.png"
+                  alt="Blog Image"
+                />
+              </div>
+            </div>
+
+            <div className="grow pb-8 group-last:pb-0">
+              <h3 className="mb-1 text-xs text-gray-600">
+                Jan 2022 - April 2022
+              </h3>
+
+              <p className="font-semibold text-sm text-gray-800">
+                Software Developer Intern {" "}
+                <span className="text-blue-500 text-md md:text-md">
+                  @ Gaotek, Inc
+                </span>
+              </p>
+
+              <ul className="list-disc ms-6 mt-3 space-y-1.5">
+                <li className="ps-1 text-sm text-gray-600">
+                  Optimized and updated the company’s Gateway Software Design.
+                </li>
+                <li className="ps-1 text-sm text-gray-600">
+                  Created test cases and simplified the overall design.
+                </li>
+                <li className="ps-1 text-sm text-gray-600">
+                  Created python script to organize and list all the
+                  interns/workers in the company based on what department they
+                  work in sub-team and date they joined the company.
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
