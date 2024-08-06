@@ -13,10 +13,12 @@ const Work = () => {
           <div className="group relative flex gap-x-5">
             <div className="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-gray-200">
               <div className="relative z-10 size-8 flex justify-center items-center">
-                <img
+                <Image
                   className="w-32 sm:w-48 h-full absolute inset-0 object-cover rounded-s-lg"
                   src="https://res.cloudinary.com/dlehxkdtn/image/upload/qd_pxjo7z.png"
                   alt="Blog Image"
+                  height={500}
+                  width={300}
                 />
               </div>
             </div>
@@ -50,10 +52,12 @@ const Work = () => {
           <div className="group relative flex gap-x-5">
             <div className="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-gray-200">
               <div className="relative z-10 size-8 flex justify-center items-center">
-                <img
+                <Image
                   className="w-32 sm:w-48 h-full absolute inset-0 object-cover rounded-s-lg"
                   src="https://res.cloudinary.com/dlehxkdtn/image/upload/tesla2_gfbss2.png"
                   alt="Blog Image"
+                  height={500}
+                  width={300}
                 />
               </div>
             </div>
@@ -91,10 +95,12 @@ const Work = () => {
           <div className="group relative flex gap-x-5">
             <div className="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-gray-200">
               <div className="relative z-10 size-8 flex justify-center items-center">
-                <img
+                <Image
                   className="w-32 sm:w-48 h-full absolute inset-0 object-cover rounded-s-lg"
                   src="https://res.cloudinary.com/dlehxkdtn/image/upload/gaotek_cqglxl.png"
                   alt="Blog Image"
+                  height={500}
+                  width={300}
                 />
               </div>
             </div>
