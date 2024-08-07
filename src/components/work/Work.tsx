@@ -23,9 +23,9 @@ const Work = () => {
               </div>
             </div>
             <div className="grow pb-8 group-last:pb-0">
-              <h3 className="mb-1 text-xs text-gray-600">Dec 2022 -</h3>
+              <h3 className="mb-1 text-sm text-gray-600">Dec 2022 -</h3>
 
-              <p className="font-semibold text-sm text-gray-800">
+              <p className="font-semibold text-md text-gray-800">
                 Software Engineer{" "}
                 <span className="text-blue-500 text-md md:text-md">
                   @ QD Web Designs
@@ -33,15 +33,15 @@ const Work = () => {
               </p>
 
               <ul className="list-disc ms-6 mt-3 space-y-1.5">
-                <li className="ps-1 text-sm text-gray-600">
+                <li className="ps-1 text-md text-gray-600">
                   Achieved a 90% increase in website traffic and user engagement
                   through dynamic and interactive designs.
                 </li>
-                <li className="ps-1 text-sm text-gray-600">
+                <li className="ps-1 text-md text-gray-600">
                   Led the development of websites and apps that significantly
                   improved client lead generation and brand visibility.
                 </li>
-                <li className="ps-1 text-sm text-gray-600">
+                <li className="ps-1 text-md text-gray-600">
                   Implemented UX designs resulting in a 50% improvement in
                   website responsiveness and user retention.
                 </li>
@@ -63,11 +63,11 @@ const Work = () => {
             </div>
 
             <div className="grow pb-8 group-last:pb-0">
-              <h3 className="mb-1 text-xs text-gray-600">
+              <h3 className="mb-1 text-sm text-gray-600">
                 Jun 2022 - Sep 2022
               </h3>
 
-              <p className="font-semibold text-sm text-gray-800">
+              <p className="font-semibold text-md text-gray-800">
                 Software Engineering Intern {" "}
                 <span className="text-blue-500 text-md md:text-md">
                   @ Tesla, Inc
@@ -75,16 +75,16 @@ const Work = () => {
               </p>
 
               <ul className="list-disc ms-6 mt-3 space-y-1.5">
-                <li className="ps-1 text-sm text-gray-600">
+                <li className="ps-1 text-md text-gray-600">
                   Developed advanced simulations and visualizations of AutoCAD
                   3D models using PyTorch and Plotly libraries.
                 </li>
-                <li className="ps-1 text-sm text-gray-600">
+                <li className="ps-1 text-md text-gray-600">
                   Built an object detection algorithm using convolutional neural
                   networks to detect, recognize, and identify entities in the
                   image.
                 </li>
-                <li className="ps-1 text-sm text-gray-600">
+                <li className="ps-1 text-md text-gray-600">
                   Improved accuracy of identifying entities in the image
                   significantly by 30%.
                 </li>
@@ -106,11 +106,11 @@ const Work = () => {
             </div>
 
             <div className="grow pb-8 group-last:pb-0">
-              <h3 className="mb-1 text-xs text-gray-600">
+              <h3 className="mb-1 text-sm text-gray-600">
                 Jan 2022 - April 2022
               </h3>
 
-              <p className="font-semibold text-sm text-gray-800">
+              <p className="font-semibold text-md text-gray-800">
                 Software Developer Intern {" "}
                 <span className="text-blue-500 text-md md:text-md">
                   @ Gaotek, Inc
@@ -118,13 +118,13 @@ const Work = () => {
               </p>
 
               <ul className="list-disc ms-6 mt-3 space-y-1.5">
-                <li className="ps-1 text-sm text-gray-600">
+                <li className="ps-1 text-md text-gray-600">
                   Optimized and updated the company’s Gateway Software Design.
                 </li>
-                <li className="ps-1 text-sm text-gray-600">
+                <li className="ps-1 text-md text-gray-600">
                   Created test cases and simplified the overall design.
                 </li>
-                <li className="ps-1 text-sm text-gray-600">
+                <li className="ps-1 text-md text-gray-600">
                   Created python script to organize and list all the
                   interns/workers in the company based on what department they
                   work in sub-team and date they joined the company.
@@ -294,13 +294,13 @@ const Work = () => {
               </g>
             </svg>
 
-            <h3 className="mb-1 text-xs text-gray-600">2024 - 2026</h3>
+            <h3 className="mb-1 text-sm text-gray-600">2024 - 2026</h3>
 
-            <p className="font-semibold text-sm text-gray-800">
+            <p className="font-semibold text-md text-gray-800">
               Master&apos;s degree in Computer Science (Machine Learning)
             </p>
 
-            <p className="mt-1 text-sm text-gray-600">
+            <p className="mt-1 text-md text-gray-600">
               Georgia Institute of Technology
             </p>
           </div>
@@ -321,13 +321,13 @@ const Work = () => {
               </g>
             </svg>
 
-            <h3 className="mb-1 text-xs text-gray-600">2018 - 2022</h3>
+            <h3 className="mb-1 text-sm text-gray-600">2018 - 2022</h3>
 
-            <p className="font-semibold text-sm text-gray-800">
+            <p className="font-semibold text-md text-gray-800">
               Bachelors degree in Computer Science
             </p>
 
-            <p className="mt-1 text-sm text-gray-600">
+            <p className="mt-1 text-md text-gray-600">
               University of Washington
             </p>
           </div>
